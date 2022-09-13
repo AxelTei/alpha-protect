@@ -223,7 +223,12 @@ form {
     list-style: none;
 }
 
-.fa-check-circle {
+.news__feature {
+    margin-bottom: 1.5rem;
+    font-size: clamp(1rem, 5vw, 1.2rem);
+}
+
+.bi-check-circle {
     margin-right: 0.5rem;
     color: #228B22;
 }
