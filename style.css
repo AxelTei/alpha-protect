@@ -217,6 +217,7 @@ form {
 .news__heading {
     margin-bottom: 1rem;
     font-size: clamp(2rem, 6vw, 3rem);
+    color: #228B22;
 }
 
 .news__features {
@@ -237,4 +238,12 @@ form {
     .news__container {
         grid-template-columns: 1fr;
     }
+}
+
+/* Calendar section */
+.calendar__title {
+    text-transform: uppercase;
+    padding: 2rem;
+    font-weight: bold;
+    color: #228B22;
 }
